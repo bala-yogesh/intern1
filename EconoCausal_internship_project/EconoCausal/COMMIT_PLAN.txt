@@ -1,0 +1,13 @@
+10-commit sequence (from the repository root):
+1. git add README.md .gitignore requirements.txt && git commit -m "Set up EconoCausal project documentation"
+2. git add src/__init__.py src/data.py && git commit -m "Add reproducible synthetic retail data generator"
+3. git add src/dml.py && git commit -m "Implement cross-fitted DML price effect estimator"
+4. git add tests/test_data.py && git commit -m "Test synthetic data generation and validation"
+5. git add tests/test_dml.py && git commit -m "Test DML estimator and input validation"
+6. git add analysis/eda.py && git commit -m "Add exploratory price-demand analysis"
+7. git add src/metrics.py && git commit -m "Add descriptive and candidate-price metrics"
+8. git add app.py && git commit -m "Build Streamlit pricing analysis dashboard"
+9. git add docs/methodology.md docs/results_template.md && git commit -m "Document DML methodology and results template"
+10. git add docs/limitations.md && git commit -m "Document project limitations and responsible use"
+
+Before each commit, run git status and inspect what will be included. Commit only files you understand and have checked. Push your assigned branch after the commits.
