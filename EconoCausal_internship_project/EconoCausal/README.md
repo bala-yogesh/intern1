@@ -58,3 +58,21 @@ The synthetic data generator uses a fixed random seed by default. The app also u
 
 ## Disclaimer
 This is an educational portfolio project. Synthetic data cannot establish the true causal effect of pricing in a real business. Real deployment would require trustworthy data, careful identification assumptions, validation, and business constraints.
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming |
+| NumPy | Numerical computing |
+| Pandas | Data manipulation |
+| Scikit-learn | Machine learning |
+| Matplotlib | Data visualization |
+| Streamlit | Interactive dashboard |
+| Pytest | Automated testing |
+
+## Testing
+
+Run the project tests using:
+
+```bash
+python -m pytest tests/ -v
